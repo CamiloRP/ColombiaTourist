@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "591983462142",
-    "project_id": "basedatossprint3",
-    "storage_bucket": "basedatossprint3.appspot.com"
+    "project_number": "551054105996",
+    "project_id": "colombiatourist-eaeee",
+    "storage_bucket": "colombiatourist-eaeee.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:591983462142:android:a0e605b05e61e6684207af",
+        "mobilesdk_app_id": "1:551054105996:android:e61b24decc64a276598aa9",
         "android_client_info": {
           "package_name": "com.example.app_mascotas"
         }
       },
       "oauth_client": [
         {
-          "client_id": "591983462142-4ugibudg98avtikgfvveercn53n55vji.apps.googleusercontent.com",
+          "client_id": "551054105996-gapb31r87n4c9sj0e0l51suvetlgfjn1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAE4NJaiPXdEE4aDS203SththJ0HGn2NwI"
+          "current_key": "AIzaSyCKnvGubyPMlIzw3SYnElU_O7kMEnNGioo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "591983462142-4ugibudg98avtikgfvveercn53n55vji.apps.googleusercontent.com",
+              "client_id": "551054105996-gapb31r87n4c9sj0e0l51suvetlgfjn1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

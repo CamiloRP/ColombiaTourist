@@ -5,7 +5,15 @@ import 'package:turistbogota/model/imagenescompletas.dart';
 import 'package:turistbogota/vistas/googlemaps.dart';
 import 'package:turistbogota/vistas/lugaresturisticos.dart';
 
+
 import '../Boxes.dart';
+import '../model/guias.dart';
+import '../model/guias.dart';
+import '../model/guias.dart';
+import '../model/guias.dart';
+import '../model/guias.dart';
+import '../model/guias.dart';
+import '../model/guias.dart';
 import '../model/lugares.dart';
 import '../model/lugaresfav.dart';
 import 'imagencompleta1.dart';
@@ -24,7 +32,7 @@ class _DetalleLugarState extends State<DetalleLugar> {
 
   void _favoritos()async{
     var lugfavorito = LugaresFav()
-      ..nombre_guia = widget.lugares.nombre_guia
+
       ..lugar = widget.lugares.lugar
       ..zona = widget.lugares.zona;
 

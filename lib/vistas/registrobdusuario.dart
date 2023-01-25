@@ -119,6 +119,7 @@ class _RegistroBDUsuarioState extends State<RegistroBDUsuario> {
                     final idusuario = widget.idusuario;
                       var usuario = Usuario(idusuario, _nombre.text, _apellido.text, _correo.text, _celular.text);
                       _registrarUsuario(usuario);
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>Login()));
                     },
                     child: Text("Registrate"),
                     ),

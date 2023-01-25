@@ -2,6 +2,7 @@
 import 'package:hive/hive.dart';
 import 'package:hive_flutter/adapters.dart';
 import 'package:turistbogota/vistas/candelaria.dart';
+import 'package:turistbogota/vistas/vistainicio.dart';
 import 'package:turistbogota/vistas/vistaprincipal.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -30,7 +31,7 @@ class Inicio extends StatelessWidget {
 
           decoration: BoxDecoration(
             image: DecorationImage(
-                image:AssetImage('images/bogota1.jpg'),
+                image:AssetImage('images/BanderaColombiaMadera.jpg'),
               fit: BoxFit.cover,
             ),
           ),
@@ -38,8 +39,9 @@ class Inicio extends StatelessWidget {
           backgroundColor: Colors.transparent,
           //body: ListaMascotas(),
             //body: Candelaria()
-            body:VistaPrincipal()
+            //body:VistaPrincipal()
           //body: Login(),
+          body: VistaInicio()
         ),
         ),
       );

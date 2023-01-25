@@ -47,30 +47,30 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDh3akIR-izUtq2MzkRoUKo0MzSLAA0gfo',
-    appId: '1:591983462142:web:36b81583407c02b24207af',
-    messagingSenderId: '591983462142',
-    projectId: 'basedatossprint3',
-    authDomain: 'basedatossprint3.firebaseapp.com',
-    storageBucket: 'basedatossprint3.appspot.com',
-    measurementId: 'G-FQYT0GSJVV',
+    apiKey: 'AIzaSyC5YpmSbVwe3xGvoMlES7eC1ucvXYP3JZ8',
+    appId: '1:551054105996:web:9ff1b2f89b00a8c2598aa9',
+    messagingSenderId: '551054105996',
+    projectId: 'colombiatourist-eaeee',
+    authDomain: 'colombiatourist-eaeee.firebaseapp.com',
+    storageBucket: 'colombiatourist-eaeee.appspot.com',
+    measurementId: 'G-LJBSSYB58L',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAE4NJaiPXdEE4aDS203SththJ0HGn2NwI',
-    appId: '1:591983462142:android:a0e605b05e61e6684207af',
-    messagingSenderId: '591983462142',
-    projectId: 'basedatossprint3',
-    storageBucket: 'basedatossprint3.appspot.com',
+    apiKey: 'AIzaSyCKnvGubyPMlIzw3SYnElU_O7kMEnNGioo',
+    appId: '1:551054105996:android:e61b24decc64a276598aa9',
+    messagingSenderId: '551054105996',
+    projectId: 'colombiatourist-eaeee',
+    storageBucket: 'colombiatourist-eaeee.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBRDe0u4hvMkzULfeBd901c1JjHn-OrKf4',
-    appId: '1:591983462142:ios:6cc8f323fd90f47e4207af',
-    messagingSenderId: '591983462142',
-    projectId: 'basedatossprint3',
-    storageBucket: 'basedatossprint3.appspot.com',
-    iosClientId: '591983462142-i9sfter4mcrre8ej6fmm83doja0lpjal.apps.googleusercontent.com',
+    apiKey: 'AIzaSyAofmfR-_QWbTD_lUUkIgOyHeqkBx1vGqc',
+    appId: '1:551054105996:ios:a0f8ca0e4eb7cc7f598aa9',
+    messagingSenderId: '551054105996',
+    projectId: 'colombiatourist-eaeee',
+    storageBucket: 'colombiatourist-eaeee.appspot.com',
+    iosClientId: '551054105996-mgfsfh0v0hj3ruempb5nf26k3mile9h9.apps.googleusercontent.com',
     iosBundleId: 'com.example.appMascotas',
   );
 }

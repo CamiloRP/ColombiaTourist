@@ -103,9 +103,7 @@ class _LugaresTuristicosState extends State<lugaresturisticos> {
                                 leading: Image.network(LugaresTuristicosBD["imagen"]
                                 ),
                                onTap: (){
-                                  Lugares lugares = Lugares(LugaresTuristicosBD["nombre_guia"],
-                                      LugaresTuristicosBD["apellido_guia"],LugaresTuristicosBD["correo"],
-                                      LugaresTuristicosBD["celular"], LugaresTuristicosBD["lugar"],
+                                  Lugares lugares = Lugares( LugaresTuristicosBD["lugar"],
                                       LugaresTuristicosBD["zona"], LugaresTuristicosBD["descripcion1"],
                                       LugaresTuristicosBD["imagen"], LugaresTuristicosBD["imagen2"],
                                       LugaresTuristicosBD["direccion"], LugaresTuristicosBD["latitud"],
