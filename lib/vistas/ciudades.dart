@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:turistbogota/vistas/drawablemenu.dart';
+import 'package:turistbogota/vistas/vistainicio.dart';
 
 import 'lugaresturisticos.dart';
 
@@ -61,7 +62,7 @@ class _CiudadesState extends State<Ciudades> {
                                        Fluttertoast.showToast(msg: "Categorias",
                                            toastLength: Toast.LENGTH_SHORT, gravity: ToastGravity.CENTER);
                                        print("Categorias");
-                                       Navigator.push(context, MaterialPageRoute(builder: (context)=>lugaresturisticos()));
+                                       Navigator.push(context, MaterialPageRoute(builder: (context)=>VistaInicio()));
 
                                      },
                                    ),
@@ -81,7 +82,7 @@ class _CiudadesState extends State<Ciudades> {
                                      color: Colors.yellow,
                                      iconSize: 45,
                                      onPressed: (){
-                                       Fluttertoast.showToast(msg: "Guardadas",
+                                       Fluttertoast.showToast(msg: "Ciudades",
                                            toastLength: Toast.LENGTH_SHORT, gravity: ToastGravity.CENTER);
                                      },
                                    ),

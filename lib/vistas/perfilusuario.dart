@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import'package:flutter/material.dart';
 import 'package:turistbogota/vistas/drawablemenu.dart';
+import 'package:turistbogota/vistas/vistainicio.dart';
 import 'package:turistbogota/vistas/vistalogin.dart';
 import 'package:turistbogota/vistas/vistaprincipal.dart';
 
@@ -14,7 +15,7 @@ class PerfilUsuario extends StatefulWidget {
   @override
   State<PerfilUsuario> createState() => _PerfilUsuarioState();
 }
-
+enum Menu{logout}
 class _PerfilUsuarioState extends State<PerfilUsuario> {
 
   @override
@@ -79,7 +80,7 @@ class _PerfilUsuarioState extends State<PerfilUsuario> {
                           ),),
                           subtitle: Text(usuarioFB['correo']+ "\n"+ usuarioFB["celular"]),
                           onTap: (){
-                            Navigator.push(context, MaterialPageRoute(builder: (context)=>lugaresturisticos()));
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>VistaInicio()));
                           },
                         )
                       ),

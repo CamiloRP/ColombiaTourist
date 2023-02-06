@@ -1,6 +1,7 @@
 import'package:flutter/material.dart';
 import 'package:turistbogota/vistas/listarfavoritos.dart';
 import 'package:turistbogota/vistas/somos.dart';
+import 'package:turistbogota/vistas/vistainicio.dart';
 import 'package:turistbogota/vistas/vistaprincipal.dart';
 
 class DrawableMenu extends StatefulWidget {
@@ -24,16 +25,16 @@ class _DrawableMenuState extends State<DrawableMenu> {
           )
         ),
             child: Column(
-          children: [
-            Container(
+            children: [
+              Container(
               width: 180,
               height: 180,
               margin: EdgeInsets.only(top: 30, bottom: 40),
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(100),
                 child: FadeInImage(
-                placeholder: AssetImage('images/LogoBogotaTourist.jpg'),
-                image: AssetImage('images/LogoBogotaTourist.jpg')
+                placeholder: AssetImage('images/LogoColombiaTourist.png'),
+                image: AssetImage('images/LogoColombiaTourist.png')
               )
             )
             ),
@@ -60,7 +61,7 @@ class _DrawableMenuState extends State<DrawableMenu> {
                 ),
               ),
                   onTap: (){
-                Navigator.push(context, MaterialPageRoute(builder: (context)=>VistaPrincipal()));
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>VistaInicio()));
                   }
             ),
               GestureDetector(
